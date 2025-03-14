@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Indian Tadka - Dine In Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      max-width: 960px;
+      color: #333;
+    }
+    h1, h2, h3 {
+      margin-top: 1.2em;
+      margin-bottom: 0.6em;
+      color: #c64c38; /* A subtle accent color */
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: #ccc;
+      margin: 20px 0;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .price {
+      float: right;
+      font-weight: bold;
+    }
+    .dish {
+      margin: 6px 0;
+      line-height: 1.4em;
+    }
+    .category-title {
+      font-size: 1.25em;
+      font-weight: bold;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      color: #c64c38;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+    .notes {
+      font-style: italic;
+      color: #666;
+    }
+    .subheading {
+      font-size: 1.1em;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .clearfix {
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Indian Tadka</h1>
+  <h2>Dine-In Menu</h2>
+
+  <hr />
+
+  <!-- Warm Beverages -->
+  <div class="section">
+    <h3>Warme Getränke (Hot Drinks)</h3>
+    <div class="dish">
+      243. indischer Tee
+      <span class="price">€3.50</span>
+    </div>
+    <div class="dish">
+      244. Espresso
+      <span class="price">€2.20</span>
+    </div>
+    <div class="dish">
+      245. Kaffee
+      <span class="price">€2.50</span>
+    </div>
+    <div class="dish">
+      246. Cappuccino
+      <span class="price">€3.50</span>
+    </div>
+    <div class="dish">
+      247. Kakao
+      <span class="price">€3.00</span>
+    </div>
+    <div class="dish">
+      249. Latte Macchiato
+      <span class="price">€4.00</span>
+    </div>
+    <div class="dish">
+      250. Tee (versch. Sorten pro Tasse) 
+      <span class="price">€2.50</span>
+      <div class="notes">
+        (Schwarz, Grün, Apfel, Fenchel, Kamille, Pfefferminz, Waldbeere, Ingwer, Jasmin, Kräuter)
+      </div>
+    </div>
+  </div>
+
+  <!-- Beers -->
+  <div class="section">
+    <h3>Biere (Beers)</h3>
+    <div class="dish">
+      214. Bitburger vom Fass 0.25 l
+      <span class="price">€3.50</span>
+      <div class="notes">0.5 l – €4.50</div>
+    </div>
+    <div class="dish">
+      216. Bitburger (Alkoholfrei) 0.33 l
+      <span class="price">€3.50</span>
+    </div>
+    <div class="dish">
+      221. Weizenbier
+      <span class="price">€4.50</span>
+    </div>
+    <div class="dish">
+      222. Alkoholfreie Weizenbier
+      <span class="price">€4.50</span>
+    </div>
+    <div class="dish">
+      219. Radler 0.25 l
+      <span class="price">€3.50</span>
+      <div class="notes">0.5 l – €4.50</div>
+    </div>
+    <div class="dish">
+      217. King Fisher (indisches Bier) 0.33 l
+      <span class="price">€4.00</span>
+    </div>
+  </div>
+
+  <!-- Non-alcoholic Drinks -->
+  <div class="section">
+    <h3>Alkoholfreie Getränke (Soft Drinks)</h3>
+    <div class="dish">
+      211. Mango-Saft, Orange-Saft 0.2 l
+      <span class="price">€2.50</span>
+      <div class="notes">0.4 l – €4.00</div>
+    </div>
+    <div class="dish">
+      218. Energy-Drink 0.25 l
+      <span class="price">€3.50</span>
+    </div>
+    <div class="dish">
+      251. Fanta, Sprite 0.2 l
+      <span class="price">€3.00</span>
+      <div class="notes">0.4 l – €4.00</div>
+    </div>
+    <div class="dish">
+      253. Coca-Cola, Coca-Cola Zero 0.2 l
+      <span class="price">€3.00</span>
+      <div class="notes">0.4 l – €4.00</div>
+    </div>
+    <div class="dish">
+      254. Coca-Cola Glasflasche 0.2 l
+      <span class="price">€3.00</span>
+    </div>
+    <div class="dish">
+      255. Apfelsaftschorle 0.2 l
+      <span class="price">€3.00</span>
+      <div class="notes">0.4 l – €4.00</div>
+    </div>
+    <div class="dish">
+      257. Mineralwasser, Stilles Wasser 0.25 l
+      <span class="price">€2.50</span>
+      <div class="notes">0.75 l – €5.00</div>
+    </div>
+    <div class="dish">
+      259. Apfelsaft 0.2 l
+      <span class="price">€3.00</span>
+      <div class="notes">0.4 l – €4.00</div>
+    </div>
+    <div class="dish">
+      261. Bitter Lemon (Schweppes) 0.2 l
+      <span class="price">€3.50</span>
+    </div>
+  </div>
+
+  <!-- Indian Cold Drinks -->
+  <div class="section">
+    <h3>Indische Kaltgetränke (Indian Cold Drinks)</h3>
+    <div class="dish">
+      209. Lassi (mild gewürzt mit Salz/Pfeffer)
+      <span class="price">€4.00</span>
+    </div>
+    <div class="dish">
+      210. Mango Lassi
+      <span class="price">€4.50</span>
+    </div>
+  </div>
+
+  <!-- Aperitif -->
+  <div class="section">
+    <h3>Aperitif</h3>
+    <div class="dish">
+      201. Campari Soda oder Orange (4 cl)
+      <span class="price">€5.00</span>
+    </div>
+    <div class="dish">
+      202. Pernod mit Naturwasser (2 cl)
+      <span class="price">€3.50</span>
+    </div>
+    <div class="dish">
+      203. Martini Rosso oder Bianco (5 cl)
+      <span class="price">€4.50</span>
+    </div>
+    <div class="dish">
+      204. Sherry Dry oder Medium (5 cl)
+      <span class="price">€4.50</span>
+    </div>
+    <div class="dish">
+      205. Prosecco Sekt (10 cl)
+      <span class="price">€4.50</span>
+    </div>
+    <div class="dish">
+      206. Prosecco Aperol (10 cl)
+      <span class="price">€5.50</span>
+    </div>
+    <div class="dish">
+      207. Prosecco mit Waldbeerenlikör (10 cl)
+      <span class="price">€5.50</span>
+    </div>
+    <div class="dish">
+      208. Hugo - Cocktail
+      <span class="price">€5.50</span>
+    </div>
+  </div>
+
+  <!-- Wines -->
+  <div class="section">
+    <h3>Weine (Wines)</h3>
+    <div class="dish">
+      223. Soave Weißwein 0.25 l
+      <span class="price">€6.00</span>
+    </div>
+    <div class="dish">
+      224. Pinot Grigio (Weiß, Grauburgunder, Venetien) 0.25 l
+      <span class="price">€6.00</span>
+    </div>
+    <div class="dish">
+      225. Rosé di Veneto Rosé (Gardasee) 0.25 l
+      <span class="price">€6.00</span>
+    </div>
+    <div class="dish">
+      226. Lambrusco Rot (lieblich, Emilia Romagna) 0.25 l
+      <span class="price">€6.00</span>
+    </div>
+    <div class="dish">
+      227. Barbara 0.25 l
+      <span class="price">€6.00</span>
+    </div>
+    <div class="dish">
+      228. Weinschorle (Rot oder Weiß)
+      <span class="price">€5.50</span>
+    </div>
+    <div class="dish">
+      262. Montepulciano (Rot, trocken) 0.25 l
+      <span class="price">€6.00</span>
+    </div>
+  </div>
+
+  <!-- Spirits & Whiskey -->
+  <div class="section">
+    <h3>Spirituosen / Liköre</h3>
+    <div class="dish">229. Ouzo (2 cl)<span class="price">€2.50</span></div>
+    <div class="dish">230. Limoncello (2 cl)<span class="price">€2.50</span></div>
+    <div class="dish">231. Sambuca Molinari (2 cl)<span class="price">€3.00</span></div>
+    <div class="dish">232. Baileys (2 cl)<span class="price">€3.00</span></div>
+    <div class="dish">233. Haselnuss Schnaps (2 cl)<span class="price">€3.50</span></div>
+    <div class="dish">234. Jägermeister (2 cl)<span class="price">€3.50</span></div>
+    <div class="dish">235. Jack Daniels - Long Drink (2 cl)<span class="price">€4.50</span></div>
+    <div class="dish">236. Grappa (2 cl)<span class="price">€3.00</span></div>
+    <div class="dish">263. Tequila (2 cl)<span class="price">€3.50</span></div>
+
+    <h3>Whisky</h3>
+    <div class="dish">237. Chivas (2 cl)<span class="price">€3.50</span></div>
+    <div class="dish">238. Black Label (2 cl)<span class="price">€3.50</span></div>
+    <div class="dish">239. JimBeam Cola (2 cl)<span class="price">€3.50</span></div>
+    <div class="dish">240. Indischer OldMog Rum (2 cl)<span class="price">€3.50</span></div>
+    <div class="dish">241. Jacky (2 cl)<span class="price">€3.50</span></div>
+    <div class="dish">242. Red Label (2 cl)<span class="price">€3.50</span></div>
+  </div>
+
+  <hr />
+
+  <!-- Soups -->
+  <div class="section">
+    <h3>Suppen (Soups)</h3>
+    <div class="dish">
+      1. Linsensuppe (Rote Linsensuppe nach indischem Rezept)
+      <span class="price">€5.50</span>
+    </div>
+    <div class="dish">
+      2. Tomatensuppe (mit Sahne)
+      <span class="price">€5.50</span>
+    </div>
+    <div class="dish">
+      3. Hühnersuppe (leicht gewürzt)
+      <span class="price">€6.50</span>
+    </div>
+  </div>
+
+  <!-- Indian Appetizers -->
+  <div class="section">
+    <h3>Indische Vorspeisen (Appetizers)</h3>
+    <p class="notes">Alle Vorspeisen werden mit Chutneys serviert.</p>
+    <div class="dish">
+      6. Pappadums & Chutneys 
+      <span class="price">€3.00</span>
+    </div>
+    <div class="dish">
+      7. Samosa (Teigtaschen mit Kartoffeln und Erbsen)
+      <span class="price">€7.00</span>
+    </div>
+    <div class="dish">
+      8. Mixed Vegetable Pakora Platter 
+      <span class="price">€8.50</span>
+      <div class="notes">
+        (2 Aloo Pakora, 2 Zucchini, 2 Aubergine, 4 Onion Rings)
+      </div>
+    </div>
+    <div class="dish">
+      9. Cheese Pakora Teller 
+      <span class="price">€9.50</span>
+      <div class="notes">Hausgemachter indischer Käse, paniert & ausgebacken</div>
+    </div>
+    <div class="dish">
+      10. Chicken Pakora Teller
+      <span class="price">€9.50</span>
+    </div>
+    <div class="dish">
+      12. Gemischter Vorspeisenteller
+      <span class="price">€14.00</span>
+      <div class="notes">Frittiertes Hähnchenfilet, indischer Käse, paniertes Gemüse</div>
+    </div>
+    <div class="dish">
+      13. Onion Baji
+      <span class="price">€8.00</span>
+    </div>
+    <div class="dish">
+      14. Fish Pakora
+      <span class="price">€10.00</span>
+    </div>
+    <div class="dish">
+      15. Chili Mushroom
+      <span class="price">€9.50</span>
+    </div>
+    <div class="dish">
+      16. Honey Chili Pommes
+      <span class="price">€9.50</span>
+    </div>
+    <div class="dish">
+      17. Panierte Scampis mit Pommes
+      <span class="price">€13.00</span>
+    </div>
+    <div class="dish">
+      18. Panierte Champignons
+      <span class="price">€15.00</span>
+    </div>
+    <div class="dish">
+      18. Indische Nudeln (je nach Verfügbarkeit)
+      <span class="price">€10.50</span>
+      <div class="notes">
+        Gebratene Nudeln nach indischer Art, mit frischem Gemüse, Sojasauce & Gewürzen
+      </div>
+    </div>
+  </div>
+
+  <!-- Salads -->
+  <div class="section">
+    <h3>Salate (Salads)</h3>
+    <p class="notes">Salatsauce nach Wahl: French Dressing oder italienische Vinaigrette</p>
+    <div class="dish">
+      19. Beilagensalat
+      <span class="price">€4.50</span>
+    </div>
+    <div class="dish">
+      20. Gemischter Salat
+      <span class="price">€8.00</span>
+    </div>
+    <div class="dish">
+      21. Prawn Salat
+      <span class="price">€17.00</span>
+    </div>
+    <div class="dish">
+      22. Paneer Salat
+      <span class="price">€15.00</span>
+    </div>
+    <div class="dish">
+      23. Indian Tadka - Spezial Salat
+      <span class="price">€15.00</span>
+    </div>
+  </div>
+
+  <!-- Tandoori Breads -->
+  <div class="section">
+    <h3>Spezialitätenbrote (Tandoori Breads)</h3>
+    <p class="notes">
+      Alle Brote werden frisch im Tandoori-Ofen gebacken & mit Ghee bestrichen.
+    </p>
+    <div class="dish">
+      27. Butter Naan
+      <span class="price">€4.00</span>
+    </div>
+    <div class="dish">
+      28. Garlic Naan
+      <span class="price">€4.50</span>
+    </div>
+    <div class="dish">
+      29. Keema Naan
+      <span class="price">€6.50</span>
+      <div class="notes">(gefüllt mit gewürztem Hackfleisch)</div>
+    </div>
+    <div class="dish">
+      30. Paneer Naan
+      <span class="price">€6.50</span>
+    </div>
+    <div class="dish">
+      32. Aloo Kulcha
+      <span class="price">€5.50</span>
+      <div class="notes">(gefüllt mit Kartoffeln, Zwiebeln & Gewürz)</div>
+    </div>
+    <div class="dish">
+      33. Tandoori Roti
+      <span class="price">€3.50</span>
+    </div>
+    <div class="dish">
+      33a. Pishwari Naan
+      <span class="price">€6.50</span>
+      <div class="notes">
+        (gefüllt mit Cashewnüssen, Mandeln, Rosinen, Pistazien, Kokosnuss, etc.)
+      </div>
+    </div>
+  </div>
+
+  <!-- Tandoori Specials -->
+  <div class="section">
+    <h3>Tandoori Spezialitäten (Tandoori Specials)</h3>
+    <p class="notes">Alle Tandoori Gerichte werden mit Basmatireis serviert.</p>
+    <div class="dish">
+      34. Fisch Tikka 
+      <span class="price">€17.50</span>
+    </div>
+    <div class="dish">
+      35. Chicken Tikka 
+      <span class="price">€16.50</span>
+    </div>
+    <div class="dish">
+      36. Haryali Chicken Tikka
+      <span class="price">€16.50</span>
+    </div>
+    <div class="dish">
+      37. Malai Tikka
+      <span class="price">€16.50</span>
+    </div>
+    <div class="dish">
+      38. Garlic Chicken Tikka
+      <span class="price">€16.50</span>
+    </div>
+    <div class="dish">
+      39. Paneer Tikka
+      <span class="price">€17.00</span>
+    </div>
+    <div class="dish">
+      40. Tandoori Prawns
+      <span class="price">€22.50</span>
+    </div>
+    <div class="dish">
+      42. Tandoori Chicken
+      <span class="price">€17.50</span>
+    </div>
+    <div class="dish">
+      41. Indian Tadka Grill Platte
+      <span class="price">€25.00</span>
+      <div class="notes">(Mix: Chicken Tikka, Malai Tikka, Garlic Tikka, Haryali Tikka, Prawns, etc.)</div>
+    </div>
+  </div>
+
+  <!-- Chicken Specialties -->
+  <div class="section">
+    <h3>Indische Hähnchenspezialitäten (Chicken Dishes)</h3>
+    <p class="notes">Alle Gerichte werden mit Basmatireis serviert.</p>
+    <div class="dish">170. Chicken Palak <span class="price">€15.50</span></div>
+    <div class="dish">171. Chicken Dhansak <span class="price">€15.50</span></div>
+    <div class="dish">172. Chicken Madras <span class="price">€15.50</span></div>
+    <div class="dish">173. Chicken Curry <span class="price">€15.50</span></div>
+    <div class="dish">174. Chicken Tikka Masala <span class="price">€15.50</span></div>
+    <div class="dish">175. Butter Chicken <span class="price">€15.50</span></div>
+    <div class="dish">176. Chicken Korma <span class="price">€15.50</span></div>
+    <div class="dish">177. Chicken Jalfrezi <span class="price">€15.50</span></div>
+    <div class="dish">178. Chicken Vindaloo <span class="price">€15.50</span></div>
+    <div class="dish">179. Chili Chicken <span class="price">€15.50</span></div>
+    <div class="dish">180. Mango Chicken <span class="price">€15.50</span></div>
+    <div class="dish">181. Karahi Chicken <span class="price">€15.50</span></div>
+    <div class="dish">182. Chicken Curry Lounge <span class="price">€15.50</span></div>
+  </div>
+
+  <!-- Seafood -->
+  <div class="section">
+    <h3>Spezialitäten aus dem Meer (Seafood)</h3>
+    <p class="notes">Alle Gerichte werden mit Basmatireis serviert.</p>
+    <div class="dish">71. Fish Chili <span class="price">€17.50</span></div>
+    <div class="dish">72. Fish Masala <span class="price">€17.50</span></div>
+    <div class="dish">73. Jheenga Vindaloo <span class="price">€19.00</span></div>
+    <div class="dish">74. Jheenga Masala <span class="price">€19.00</span></div>
+    <div class="dish">75. Fish CurryLounge <span class="price">€18.00</span></div>
+  </div>
+
+  <!-- Lamb Specialties -->
+  <div class="section">
+    <h3>Lammspezialitäten (Lamb Dishes)</h3>
+    <p class="notes">Alle Gerichte werden mit Basmatireis serviert.</p>
+    <div class="dish">76. Lammcurry <span class="price">€18.00</span></div>
+    <div class="dish">76a. Lamm Korma <span class="price">€18.00</span></div>
+    <div class="dish">77. Lamm Vindaloo <span class="price">€18.00</span></div>
+    <div class="dish">77a. Lamm Palak <span class="price">€18.00</span></div>
+    <div class="dish">78. Lamm Madras <span class="price">€18.00</span></div>
+    <div class="dish">79. Lamm Karahi <span class="price">€18.00</span></div>
+    <div class="dish">80. Lamm Jalfrezi <span class="price">€18.00</span></div>
+    <div class="dish">80a. Lamm Curry Lounge <span class="price">€18.00</span></div>
+    <div class="dish">91. Lamm Tikka Masala <span class="price">€18.00</span></div>
+    <div class="dish">92. Sweet Chili Lamb <span class="price">€18.00</span></div>
+    <div class="dish">93. Lamm Rogan Josh <span class="price">€18.00</span></div>
+  </div>
+
+  <!-- Vegetarian Specialties -->
+  <div class="section">
+    <h3>Vegetarisch & Vegan (Vegetarian/Vegan)</h3>
+    <p class="notes">Alle Gerichte werden mit Basmatireis serviert.</p>
+    <div class="dish">
+      43. Rajma Masala (VEGAN)
+      <span class="price">€14.50</span>
+    </div>
+    <div class="dish">
+      45. Dal Makhni
+      <span class="price">€14.50</span>
+    </div>
+    <div class="dish">
+      46. Dal Tarka (VEGAN)
+      <span class="price">€14.50</span>
+    </div>
+    <div class="dish">
+      47. Aloo Chana Masala (VEGAN)
+      <span class="price">€14.50</span>
+    </div>
+    <div class="dish">
+      48. Veg. Jalfrezi (VEGAN)
+      <span class="price">€14.50</span>
+    </div>
+    <div class="dish">
+      49. Palak Paneer
+      <span class="price">€15.50</span>
+    </div>
+    <div class="dish">
+      52. Matar Paneer
+      <span class="price">€15.50</span>
+    </div>
+    <div class="dish">
+      53. Shahi Paneer
+      <span class="price">€15.50</span>
+    </div>
+    <div class="dish">
+      54. Chili Paneer
+      <span class="price">€15.50</span>
+    </div>
+    <div class="dish">
+      54a. Bangan Bartha
+      <span class="price">€14.50</span>
+    </div>
+    <div class="dish">
+      54b. Bhindi Sabji (saisonal)
+      <span class="price">€14.50</span>
+    </div>
+    <div class="dish">
+      54c. Veg Korma
+      <span class="price">€14.50</span>
+    </div>
+    <div class="dish">
+      54d. Aloo Gobhi (VEGAN)
+      <span class="price">€14.50</span>
+    </div>
+    <div class="dish">
+      55. Karahi Paneer
+      <span class="price">€15.50</span>
+    </div>
+    <div class="dish">
+      55a. Paneer Tikka Masala
+      <span class="price">€15.50</span>
+    </div>
+  </div>
+
+  <!-- Biryani Dishes -->
+  <div class="section">
+    <h3>Biryani (Reis-Spezialitäten)</h3>
+    <p class="notes">Alle Gerichte werden mit Raita serviert.</p>
+    <div class="dish">85. Vegetarisch Biryani <span class="price">€14.50</span></div>
+    <div class="dish">86. Murgh Biryani <span class="price">€15.00</span></div>
+    <div class="dish">87. Lamm Biryani <span class="price">€17.00</span></div>
+    <div class="dish">88. Jheenga Biryani <span class="price">€18.00</span></div>
+  </div>
+
+  <!-- Schnitzel Dishes -->
+  <div class="section">
+    <h3>Fleischgerichte - Schnitzel</h3>
+    <p class="notes">
+      Vom Schwein, auf Wunsch auch Hähnchenschnitzel (zzgl. €1,50).  
+      Alle Gerichte mit Beilagensalat. Wahlweise mit Pommes oder Kroketten.
+    </p>
+    <div class="dish">100. Schnitzel "Wiener Art" <span class="price">€14.00</span></div>
+    <div class="dish">101. Zigeunerschnitzel <span class="price">€15.00</span></div>
+    <div class="dish">102. Rahmschnitzel mit Champignons <span class="price">€15.50</span></div>
+    <div class="dish">103. Pfefferschnitzel <span class="price">€15.00</span></div>
+    <div class="dish">105. Prosciutto Schnitzel <span class="price">€16.00</span></div>
+  </div>
+
+  <!-- Kids Menu -->
+  <div class="section">
+    <h3>Kinder Menü</h3>
+    <div class="dish">
+      110. Mozzarella Sticks
+      <span class="price">€9.50</span>
+    </div>
+    <div class="dish">
+      111. Crispy Burger Menü (mit Pommes)
+      <span class="price">€9.50</span>
+    </div>
+    <div class="dish">
+      112. Chicken Nuggets (mit Pommes)
+      <span class="price">€8.00</span>
+    </div>
+    <div class="dish">
+      113. Pommes frites
+      <span class="price">€4.50</span>
+    </div>
+  </div>
+
+  <!-- Desserts -->
+  <div class="section">
+    <h3>Nachtischkarte (Desserts)</h3>
+    <div class="dish">
+      120. Gulab Jamun
+      <span class="price">€4.50</span>
+      <div class="notes">Süße, frittierte Milchbällchen in Zuckersirup</div>
+    </div>
+    <div class="dish">
+      121. Firni
+      <span class="price">€5.00</span>
+      <div class="notes">Indischer Reispudding mit Safran & Nüssen</div>
+    </div>
+  </div>
+
+  <hr />
+  <p><strong>Vielen Dank und guten Appetit!</strong></p>
+</body>
+</html>
